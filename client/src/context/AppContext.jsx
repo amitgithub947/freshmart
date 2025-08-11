@@ -7,7 +7,7 @@ import axios from "axios";
 
 // Axios default settings (these were already correct in your original code)
 axios.defaults.withCredentials = true;
-axios.defaults.baseURL = 'http://localhost:7000';
+axios.defaults.baseURL = 'https://freshmart-gda0.onrender.com';
 
 export const AppContext = createContext(null);
 
