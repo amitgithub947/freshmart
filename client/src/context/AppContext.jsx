@@ -7,7 +7,7 @@ import axios from "axios";
 
 // Axios default settings (these were already correct in your original code)
 axios.defaults.withCredentials = true;
-axios.defaults.baseURL = import.meta.env.VITE_BACKEND_URL;
+axios.defaults.baseURL = 'http://localhost:7000';
 
 export const AppContext = createContext(null);
 
