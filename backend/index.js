@@ -60,7 +60,7 @@ try {
 
 // CORS config (Render + localhost for testing)
 const allowedOrigins = [
-  //"https://freshmart-1-0j71.onrender.com",
+  "https://freshmart-three.vercel.app",
   "http://localhost:5173",
 ];
 
