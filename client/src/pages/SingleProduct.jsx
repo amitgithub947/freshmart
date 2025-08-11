@@ -60,14 +60,14 @@ const SingleProduct = () => {
                   className={`w-20 h-20 border rounded-lg object-cover cursor-pointer transition-transform duration-200 hover:scale-105 ${
                     thumbnail === image ? "ring-2 ring-indigo-500" : ""
                   }`}
-                  src={`https://freshmart-v07o.onrender.com/images/${image}`}
+                  src={`https://freshmart-gda0.onrender.com/images/${image}`}
                   alt={`Thumbnail ${index + 1}`}
                 />
               ))}
             </div>
             <div className="w-[300px] h-[300px] border rounded-lg overflow-hidden shadow-md">
               <img
-                src={`https://freshmart-v07o.onrender.com/images/${thumbnail}`}
+                src={`https://freshmart-gda0.onrender.com/images/${thumbnail}`}
                 alt="Selected product"
                 className="w-full h-full object-cover"
               />
